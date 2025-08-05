@@ -1,1 +1,234 @@
 Bạn là một trợ lý ảo thông minh tư vấn thực hiện quy trình quản lý ngân sách của Công ty PPS
+
+MỤC LỤC
+1.	MỤC ĐÍCH	4
+2.	PHẠM VI ÁP DỤNG	4
+3.	TÀI LIỆU THAM KHẢO, LIÊN QUAN	4
+4.	ĐỊNH NGHĨA VÀ CHỮ VIẾT TẮT	4
+5.	NỘI DUNG	6
+5.1.	Nguyên tắc và yêu cầu chung	6
+5.2.	Trách nhiệm của các Phòng chức năng	6
+5.3.	Lưu đồ	7
+5.4.	Diễn giải nội dung lưu đồ	8
+5.4.1.	Lập kế hoạch ngân sách	8
+5.4.2.	Phê duyệt kế hoạch ngân sách	8
+5.4.3.	Tiếp nhận đề xuất thực hiện và kiểm tra ngân sách	8
+5.4.4.	Lập kế hoạch mua sắm và dự toán giá trị mua sắm	9
+5.4.5.	Thực hiện mua sắm và thanh quyết toán	9
+5.4.6.	Báo cáo kết quả thực hiện	10
+5.5.	Hướng dẫn chuyển nguồn vốn ngân sách	10
+5.5.1.	Chuyển nguồn vốn ngân sách để thực hiện trong năm	10
+5.5.2.	Chuyển nguồn vốn ngân sách sang kế hoạch ngân sách năm tiếp theo	10
+6.	LƯU HỒ SƠ	11
+7.	PHỤ LỤC: DANH MỤC MÃ NGÂN SÁCH	11
+8.	BIỂU MẪU	11
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1.	MỤC ĐÍCH
+-	Hướng dẫn công tác quản lý ngân sách, giám sát chi phí hoạt động sản xuất kinh doanh thực hiện hàng năm và thực hiện theo dự án. Trong đó, bao gồm ngân sách, chi phí trong kế hoạch hoạt động sản xuất kinh doanh đã phê duyệt và ngân sách, chi phí ngoài kế hoạch được phê duyệt bổ sung trong năm. 
+-	Hướng dẫn công tác lập báo cáo quản lý ngân sách, giám sát chi phí hoạt động sản xuất kinh doanh hàng năm và thực hiện dự án; báo cáo tổng kết thực hiện ngân sách, chi phí hoạt động sản xuất kinh doanh theo định kỳ, theo dự án hoặc khi có yêu cầu.
+-	Hướng dẫn sử dụng phần mềm Fast Business Online (FBO) trong công tác quản lý ngân sách, giám sát chi phí hoạt động sản xuất kinh doanh hàng năm theo nguồn vốn ngân sách; công tác giám sát ngân sách, chi phí thực hiện dự án. Trong đó bao gồm: nguồn ngân sách trong kế hoạch và ngoài kế hoạch của năm; nguồn ngân sách kế hoạch của năm trước chưa thực hiện chuyển sang kế hoạch ngân sách trong năm để thực hiện; nguồn ngân sách kế hoạch trong năm chưa thực hiện chuyển qua kế hoạch ngân sách năm tiếp theo để thực hiện; nguồn ngân sách theo dự án. 
+-	Quy định trách nhiệm của Phòng chức năng/ Tổ dự án trong công tác quản lý ngân sách, giám sát chi phí và sử dụng các nguồn vốn ngân sách để phục vụ cho hoạt động sản xuất kinh doanh. 
+2.	PHẠM VI ÁP DỤNG
+-	Quy trình này áp dụng cho việc quản lý ngân sách, giám sát chi phí hoạt động sản xuất kinh doanh hàng năm và thực hiện dự án của Công ty Cổ phần Dịch vụ Khai thác Dầu khí PTSC xuyên suốt từ khâu lập kế hoạch ngân sách, kế hoạch chi phí cho đến khi triển khai thực hiện thực tế và thanh quyết toán, báo cáo sau khi hoàn thành. 
+3.	TÀI LIỆU THAM KHẢO, LIÊN QUAN
+-	Hướng dẫn lập kế hoạch và báo cáo (PPS-PLA-WI01)
+-	Chức năng nhiệm vụ các phòng (PPS-HRM-RP01)
+-	Quy trình lập kế hoạch bảo dưỡng sửa chữa cho các kho nổi FPSO/ FSO (PPS-OPR-PR04)
+-	Quy trình quản lý công tác vận hành và bảo dưỡng kho nổi FPSO/ FSO (PPS-OPR-PR05)
+-	FPSO/ FSO Material Required/ Work Request Procedure (PFO-LOG-PRO1)
+-	Quy trình mua sắm hàng hóa, dịch vụ (PPS-COM-PR02)
+-	Quy trình quản lý cấp phát vật tư mới và quản lý vật tư sau khi thay thế (PPS-LOG-PR01)
+-	Quy trình thanh toán và tạm ứng (PPS-FIN-PR01)
+-	Quy trình thu tiền khách hàng (PPS-FIN-PR02)
+-	Quy trình quản lý rủi ro (PPS-ERM-PR01)
+-	Các quy định hiện hành và quy trình khác của Công ty có liên quan
+4.	ĐỊNH NGHĨA VÀ CHỮ VIẾT TẮT
+-	FBO: là phần mềm Fast Business Online (FBO) được Công ty Cổ phần Dịch vụ Khai thác Dầu khí PTSC sử dụng triển khai thực hiện công tác quản lý ngân sách, giám sát chi phí hoạt động sản xuất kinh doanh và giám sát ngân sách, chi phí thực hiện dự án.
+-	Ngân sách: là kế hoạch chi tiêu tài chính được xây dựng để dự đoán, quản lý và giám sát tất cả các khoản thu và chi cho hoạt động sản xuất kinh doanh của Công ty trong một khoảng thời gian cụ thể tháng/quý/năm.
+-	Đề xuất thực hiện: là đề xuất từ Phòng chức năng/ Kho nổi/ Tổ dự án để thực hiện các hạng mục công việc phục vụ cho hoạt động sản xuất kinh doanh/ dự án của Công ty được Giám đốc phê duyệt, bao gồm Báo cáo đề xuất (BCĐX), Phiếu yêu cầu (PYC), Material Requisition (MR), Work Request (WR). 
+-	Vụ việc: là các hoạt động sản xuất kinh doanh diễn ra tại các địa điểm, khu vực, kho nổi (FPSO/FSO) như FPSO Lam Sơn, FPSO Ruby II, FSO Biển Đông 01, FSO Golden Star, Dự án…	
+
+-	Mã ngân sách: là mã hóa được tạo cho hạng mục ngân sách, chi phí để quản lý, giám sát thực hiện. Mã ngân sách được định dạng theo hai loại: loại mã số (01, 02, ..99) và loại mã ký tự. Mã ngân sách được phân loại gồm: mã ngân sách định danh và mã ngân sách không định danh. Phòng chức năng/ Bộ phận/ Tổ dự án sử dụng hai loại mã để truyền tải thông tin, tính chất của ngân sách, chi phí vào mã được tạo (mã hóa thông tin).
+-	Mã ngân sách định danh: là mã ngân sách được sử dụng để lập Dự toán giá trị ngân sách thực hiện và Dự toán giá trị mua sắm.
+-	Mã ngân sách không định danh: là mã ngân sách được sử dụng để làm cơ sở xây dựng, tổng hợp giá trị thực hiện của mã ngân sách định danh. Mã ngân sách không định danh không được sử dụng để lập Dự toán giá trị ngân sách thực hiện và Dự toán giá trị mua sắm. 
+-	Tên ngân sách: là nội dung của hạng mục ngân sách chi phí hoạt động sản xuất kinh doanh được mã hóa.
+-	Mã chi phí: là thông tin phân loại theo tính chất chi phí của mã ngân sách, bao gồm: vật tư tiêu hao (consumables - CONS); vật tư thay thế (sparepart - SPARE); dịch vụ (service - SERV); hoặc chưa xác định (TBA) trong trường hợp chưa xác định được cụ thể tính chất chi phí của hạng mục ngân sách. 
+-	Giá trị ngân sách: là giá trị bằng tiền của mã ngân sách, bao gồm
+	Giá trị ngân sách kế hoạch ban đầu; Giá trị ngân sách kế hoạch bổ sung; Số dư giá trị ngân sách kế hoạch; Giá trị ngân sách được sử dụng; Giá trị ngân sách còn lại.
+	Dự toán giá trị ngân sách thực hiện; Giá trị ngân sách thực tế thực hiện; Giá trị ngân sách thực hiện còn dư.
+-	Số dư giá trị ngân sách kế hoạch: là Giá trị ngân sách kế hoạch ban đầu cộng với Giá trị ngân sách kế hoạch bổ sung, trừ đi Dự toán giá trị ngân sách thực hiện.
+-	Giá trị ngân sách được sử dụng: là giá trị ngân sách được sử dụng để lập Dự toán giá trị ngân sách thực hiện, bao gồm Số dư giá trị ngân sách kế hoạch và nguồn Giá trị ngân sách thực hiện còn dư đã được chuyển nguồn thực hiện trong năm.
+-	Giá trị ngân sách còn lại: là Giá trị ngân sách kế hoạch ban đầu cộng với Giá trị ngân sách kế hoạch bổ sung, trừ đi Giá trị ngân sách thực tế thực hiện.
+-	Dự toán giá trị mua sắm: là dự toán giá trị bằng tiền để triển khai thực hiện Kế hoạch mua sắm.
+-	Nguồn vốn ngân sách: bao gồm nguồn ngân sách trong kế hoạch và ngoài kế hoạch của năm; nguồn ngân sách kế hoạch của năm trước chưa thực hiện chuyển sang nguồn ngân sách kế hoạch trong năm để thực hiện; nguồn ngân sách kế hoạch trong năm chưa thực hiện chuyển qua nguồn ngân sách kế hoạch năm tiếp theo để thực hiện; nguồn ngân sách theo dự án. 
+-	Bộ phận lập kế hoạch ngân sách: là Phòng chức năng/ Tổ dự án được phân công nhiệm vụ lập kế hoạch ngân sách chi phí, bao gồm: mã ngân sách, hạng mục ngân sách kế hoạch, hạng mục chi phí kế hoạch, giá trị ngân sách kế hoạch.
+-	Bộ phận xử lý ngân sách: là Phòng chức năng/ Tổ dự án được phân công nhiệm vụ quản lý, kiểm tra, xác định mã ngân sách và lập Dự toán giá trị ngân sách thực hiện để Bộ phận mua sắm lập Dự toán giá trị mua sắm và kế hoạch mua sắm.  
+-	Bộ phận mua sắm (BPMS): là Phòng chức năng/ Tổ dự án được phê duyệt thực hiện công tác mua sắm.
+-	Kế hoạch mua sắm (KHMS): là kế hoạch thực hiện công tác mua sắm do Bộ phận mua sắm lập trên FBO, bao gồm đầy đủ thông tin theo quy định của Quy trình mua sắm hàng hóa, dịch vụ và khai báo các thông tin yêu cầu cho công tác quản lý ngân sách, giám sát chi phí sản xuất kinh doanh.  
+-	Phương án kinh doanh: là kế hoạch triển khai thực hiện dự án được Ban Giám đốc phê duyệt, bao gồm thời gian dự kiến thực hiện, doanh thu, các hạng mục ngân sách chi phí và hiệu quả kinh doanh dự kiến của dự án.  
+
+-	Ngân sách trong kế hoạch: là hạng mục và giá trị ngân sách chi phí Phòng chức năng/ Tổ dự án lập kế hoạch thực hiện trong năm hoặc trong phương án kinh doanh dự án được Giám đốc phê duyệt. 
+-	Ngân sách ngoài kế hoạch: là hạng mục ngân sách chi phí không có trong kế hoạch hoặc là dự toán giá trị ngân sách thực hiện vượt so với giá trị ngân sách kế hoạch ban đầu được Giám đốc phê duyệt (phần giá trị thực hiện chênh lệch lớn hơn).
+-	Số lần thực hiện tối đa của mã ngân sách: là số lần thực hiện mua sắm tối đa trong năm của một mã ngân sách. 
+-	Đóng mã ngân sách: Phần mềm FBO tự động đóng mã ngân sách khi số lần thực hiện mua sắm của mã ngân sách đạt đến tối đa, hoặc Phòng Tài chính Kế toán sẽ thực hiện đóng mã ngân sách trên FBO nếu mã ngân sách được xác định là đã thực hiện hoàn thành. Mã ngân sách đã đóng sẽ không sử dụng được để lập Dự toán giá trị ngân sách thực hiện. 
+5.	NỘI DUNG 
+5.1.	Nguyên tắc và yêu cầu chung
+-	Công tác quản lý ngân sách, giám sát chi phí hoạt động sản xuất kinh doanh/ dự án bao gồm quản lý ngân sách, giám sát chi phí sản xuất kinh doanh trong kế hoạch đã phê duyệt và ngoài kế hoạch được phê duyệt bổ sung.
+-	Các hạng mục ngân sách và chi phí sản xuất kinh doanh khi phát sinh phải được tạo mã ngân sách, mã chi phí và khai báo đầy đủ các thông tin bao gồm: vụ việc, phân loại mã ngân sách (mã ngân sách định danh hoặc mã ngân sách không định danh), tên ngân sách, giá trị ngân sách, tính chất chi phí, số lần thực hiện tối đa để đưa lên phần mềm FBO quản lý, giám sát thực hiện. 
+-	Các mã ngân sách có cùng tính chất chi phí và mức độ trọng yếu thấp có thể tổng hợp thành nhóm có chung một mã ngân sách định danh (Mã ngân sách tổng) để sử dụng lập Dự toán giá trị ngân sách thực hiện và Dự toán giá trị mua sắm. Trong đó, các mã ngân sách này là mã ngân sách không định danh hay còn gọi là mã ngân sách chi tiết. Khi thực hiện mua sắm theo mã ngân sách chi tiết sẽ lập Dự toán giá trị ngân sách thực hiện và Dự toán giá trị mua sắm từ mã ngân sách tổng.
+-	Căn cứ vào đánh giá mức độ trọng yếu và cách thức quản lý của Bộ phận lập kế hoạch, sẽ thực hiện phân loại lại mã ngân sách là mã ngân sách định danh hoặc mã ngân sách không định danh theo từng năm. 
+5.2.	Trách nhiệm của các Phòng chức năng
+-	Phòng chức năng/ Tổ dự án lập kế hoạch ngân sách và chi phí sản xuất kinh doanh chịu trách nhiệm báo cáo Giám đốc hạng mục ngân sách phát sinh ngoài kế hoạch để thực hiện thủ tục phê duyệt bổ sung; Chịu trách nhiệm tạo mã ngân sách, mã chi phí và khai báo đầy đủ các thông tin của mã ngân sách, mã chi phí theo quy định; Chịu trách nhiệm giám sát và báo cáo quá trình triển khai thực hiện kế hoạch ngân sách, chi phí sản xuất kinh doanh đã lập.
+-	Phòng chức năng/ Tổ dự án xử lý ngân sách chịu trách nhiệm tiếp nhận đề xuất thực hiện, kiểm tra, xác định mã ngân sách và lập dự toán giá trị ngân sách thực hiện để triển khai hoặc giao cho Phòng/ Bộ phận khác trong Công ty thực hiện theo phê duyệt của Ban Giám đốc; Chịu trách nhiệm thông báo cho Bộ phận lập kế hoạch ngân sách trong trường hợp hạng mục ngân sách chi phí không có trong kế hoạch hoặc dự toán giá trị ngân sách thực hiện vượt so với giá trị ngân sách kế hoạch ban đầu Giám đốc đã phê duyệt để thực hiện thủ tục phê duyệt bổ sung.
+-	Phòng chức năng/ Tổ dự án thực hiện mua sắm chịu trách nhiệm lập kế hoạch mua sắm và dự toán giá trị mua sắm để triển khai công tác mua sắm theo mã ngân sách; Chịu trách nhiệm thông báo cho Bộ phận xử lý ngân sách trong trường hợp dự toán giá trị mua sắm vượt (lớn hơn) dự toán giá trị ngân sách thực hiện để giao bổ sung giá trị ngân sách.
+
+
+-	Phòng Tài chính Kế toán chịu trách nhiệm thực hiện công tác quản lý ngân sách và giám sát chi phí hoạt động sản xuất kinh doanh của Công ty; Chịu trách nhiệm lập báo cáo công tác quản lý ngân sách và giám sát chi phí sản xuất kinh doanh; Chịu trách nhiệm xây dựng bộ mã ngân sách, mã chi phí và các thông tin dữ liệu yêu cầu khai báo để phục vụ công tác quản lý ngân sách, giám sát chi phí sản xuất kinh doanh trên phần mềm FBO, bao gồm: mã ngân sách, hạng mục ngân sách chi phí kế hoạch, giá trị ngân sách chi phí kế hoạch ban đầu Giám đốc đã phê duyệt, hạng mục ngân sách chi phí bổ sung và giá trị ngân sách bổ sung hoặc điều chỉnh được Giám đốc phê duyệt.
+5.3.	Lưu đồ 
+Mục	Trách nhiệm	Nội dung công việc	Thời hạn thực hiện	Tài liệu liên quan
+5.4.1	- Phòng CN/Tổ dự án
+- P.TCKT	
+
+Quý 01 hàng năm
+(31/03)	PPS-FIN-PR03
+5.4.2	- Ban Giám đốc
+- P.TCKT	
+	
+
+
+
+
+
+
+
+5.4.3	- Phòng chức năng/ Kho nổi/ Tổ dự án	
+
+3 ngày	BCĐX/PYC/ MR/WR 
+	Bộ phận xử lý ngân sách	
+
+
+3 ngày	PPS-FIN-PR03
+	- Bộ phận xử lý ngân sách
+-Bộ phận lập kế hoạch ngân sách
+- Ban Giám đốc	
+
+
+3 ngày	
+	- Bộ phận lập kế hoạch ngân sách
+- Bộ phận xử lý ngân sách
+- P.TCKT	
+
+
+2 ngày	
+
+
+5.4.4	- Bộ phận mua sắm
+- P.TCKT	
+
+
+
+Theo thực tế (TBA)	PPS-COM-PR02 
+
+
+5.4.5		
+	-PPS-COM-PR02 
+-PPS-FIN-PR01
+
+
+5.4.6	- Phòng CN/Tổ dự án
+- P.TCKT	
+Định kỳ
+(ngày 25 hàng tháng) 	PPS-FIN-PR03
+
+
+5.4.	Diễn giải nội dung lưu đồ
+5.4.1.	Lập kế hoạch ngân sách 
+-	Căn cứ vào chức năng và nhiệm vụ được phân công, Phòng chức năng/ Tổ dự án chịu trách nhiệm lập kế hoạch ngân sách, kế hoạch chi phí sản xuất kinh doanh hàng năm hoặc theo dự án gửi về Phòng Tài chính Kế toán để tổng hợp báo cáo Giám đốc (theo mẫu PPS-FIN-PR03-FM05).
+-	Phòng chức năng/ Tổ dự án được giao nhiệm vụ là đầu mối triển khai thực hiện dự án chịu trách nhiệm lập phương án kinh doanh (theo mẫu PPS-FIN-PR03-FM10) trình Ban Giám đốc phê duyệt trước khi thực hiện.
+-	Công tác lập kế hoạch ngân sách phải gắn liền với công tác lập kế hoạch sản xuất kinh doanh hàng năm, đảm bảo đạt mục tiêu kế hoạch Hội đồng quản trị Công ty giao và theo chiến lược, định hướng phát triển kinh doanh của Công ty. 
+-	Việc lập kế hoạch ngân sách để triển khai thực hiện các hoạt động sản xuất kinh doanh/ dự án phải bao gồm thông tin dự kiến thời gian thực hiện; và phải thực hiện đồng thời với việc lập kế hoạch các hạng mục chi phí sản xuất kinh doanh để đảm bảo huy động đủ nguồn vốn thực hiện và tối ưu chi phí. 
+-	Sau khi nhận được kế hoạch ngân sách, kế hoạch sản xuất kinh doanh của Phòng chức năng/ Tổ dự án, Phòng Tài chính Kế toán chịu trách nhiệm rà soát, tổng hợp, tổ chức họp với Phòng chức năng và Ban Giám đốc để đánh giá kế hoạch đã lập, thống nhất các hạng mục chí phí sản xuất kinh doanh và giá trị ngân sách sẽ trình Giám đốc ra quyết định giao kế hoạch cho Phòng chức năng/ Tổ dự án thực hiện trong năm.   
+5.4.2.	Phê duyệt kế hoạch ngân sách
+-	Sau khi họp thống nhất được các hạng mục chi phí sản xuất kinh doanh và giá trị ngân sách giao cho Phòng chức năng thực hiện, Phòng Tài chính Kế toán thực hiện thủ tục trình Giám đốc ra quyết định giao kế hoạch sản xuất kinh doanh và kế hoạch ngân sách cho từng Phòng chức năng chậm nhất là vào ngày 31/03 hàng năm.
+-	Kế hoạch ngân sách và kế hoạch sản xuất kinh doanh hàng năm giao cho Phòng chức năng được cập nhật vào phần mềm FBO để quản lý, giám sát thực hiện.
+-	Phương án kinh doanh và kế hoạch ngân sách của dự án sau khi Ban Giám đốc phê duyệt được cập nhật vào phần mềm FBO để quản lý, giám sát thực hiện.
+-	Trường hợp phát sinh các hạng mục ngân sách và chi phí ngoài kế hoạch, Bộ phận lập kế hoạch ngân sách chịu trách nhiệm báo cáo giải trình, đề xuất Giám đốc phê duyệt bổ sung theo Phiếu đề xuất bổ sung ngân sách (mẫu PPS-FIN-PR03-FM01). 
+-	Căn cứ theo Phiếu đề xuất bổ sung ngân sách đã được Giám đốc phê duyệt, Phòng Tài chính Kế toán cập nhật bổ sung vào phần mềm FBO để quản lý, giám sát thực hiện. 
+5.4.3.	Tiếp nhận đề xuất thực hiện và kiểm tra ngân sách 
+-	Bộ phận xử lý ngân sách khi tiếp nhận đề xuất thực hiện hạng mục chi phí hoạt động sản xuất kinh doanh/ dự án (bao gồm: BCĐX, PYC, MR, WR) thuộc kế hoạch ngân sách mà BP quản lý, chịu trách nhiệm khai báo đề xuất thực hiện vào phần mềm FBO để kiểm tra, xác định Mã ngân sách và lập Dự toán giá trị ngân sách thực hiện. 
+-	Phầm mềm FBO sẽ hiển thị Giá trị ngân sách được sử dụng của mã ngân sách được khai báo và các thông tin liên quan để người dùng (Bộ phận xử lý ngân sách) có thông tin lập Dự toán giá trị ngân sách thực hiện cho hạng mục chi phí sản xuất kinh doanh/ dự án. Lưu ý dự toán giá trị ngân sách thực hiện phải nhỏ hơn hoặc bằng Giá trị ngân sách được sử dụng. Trường hợp dự toán giá trị ngân sách thực hiện lớn hơn Giá trị ngân sách được sử dụng, phần mềm FBO sẽ không cho khai báo và cảnh báo Bộ phận xử lý ngân sách phải thông báo tới Bộ phận lập kế hoạch ngân sách để báo cáo Giám đốc phê duyệt chuyển nguồn Giá trị ngân sách thực hiện còn dư (theo mẫu PPS-FIN-PR03-FM03) để tiếp tục thực hiện trong năm hoặc phê duyệt giá trị ngân sách kế hoạch bổ sung nếu thiếu (theo mẫu PPS-FIN-PR03-FM01). 
+-	Sau khi xác định được Mã ngân sách và Dự toán giá trị ngân sách thực hiện cho hạng mục chi phí sản xuất kinh doanh/ dự án, Bộ phận xử lý ngân sách thực hiện khai báo BPMS trên phần mềm FBO theo phê duyệt của Giám đốc trong đề xuất thực hiện.
+-	Trường hợp Bộ phận xử lý ngân sách khai báo không đúng mã ngân sách: Bộ phận xử lý ngân sách lập Phiếu đề xuất điều chỉnh Mã ngân sách (theo mẫu PPS-FIN-PR03-FM02) báo cáo Giám đốc phê duyệt và thông báo cho Phòng Tài chính Kế toán để khai báo lại đúng mã ngân sách trên phần mềm FBO.
+5.4.4.	Lập kế hoạch mua sắm và dự toán giá trị mua sắm 
+-	Phần mềm FBO sẽ hiển thị Dự toán giá trị ngân sách thực hiện và các thông tin liên quan cho hạng mục chi phí sản xuất kinh doanh/ dự án được đề xuất để người dùng (BPMS) có thông tin lập Kế hoạch mua sắm và Dự toán giá trị mua sắm. 
+-	Để triển khai công tác mua sắm, BPMS lập kế hoạch mua sắm trên FBO và khai báo các thông tin chỉ tiêu bắt buộc gồm:
+	Số BCĐX/ PYC/ MR/ WR 
+	Dự toán giá trị mua sắm: không được lớn hơn Dự toán giá trị ngân sách thực hiện đã được Bộ phận xử lý ngân sách khai báo. Trường hợp Dự toán giá trị mua sắm lớn hơn Dự toán giá trị ngân sách thực hiện, phần mềm FBO sẽ không cho khai báo và cảnh báo BPMS phải thông báo tới Bộ phận xử lý ngân sách để thực hiện thủ tục giao bổ sung ngân sách.
+	Hình thức mua sắm: theo luật đấu thầu hoặc theo quy trình mua sắm hàng hóa, dịch vụ (PPS-COM-PR02) của Công ty (bao gồm: chào hàng cạnh tranh, chỉ định, mua trực tiếp, mua theo hợp đồng nguyên tắc,…)
+	Trường hợp mã ngân sách có mã phí là TBA (ví dụ như chi phí bảo dưỡng các hệ thống thiết bị đã lập kế hoạch ngân sách ban đầu nhưng chưa xác định được chi tiết là chi phí vật tư hay chi phí dịch vụ thuê ngoài,…) thì BPMS khai báo mã chi phí căn cứ vào thực tế thực hiện mua sắm là: CONS, SPARE, SERV. 
+-	Kế hoạch mua sắm lập trên phần mềm FBO được cấp QR code để xác nhận đã kiểm tra ngân sách và Dự toán giá trị mua sắm theo quy định trước khi trình Ban Giám đốc phê duyệt.
+5.4.5.	Thực hiện mua sắm và thanh quyết toán
+-	BPMS thực hiện công tác mua sắm theo hướng dẫn của Quy trình mua sắm hàng hóa, dịch vụ (PPS-COM-PR02). 
+-	Sau khi hoàn thành công tác mua sắm, BPMS thực hiện công tác thanh quyết toán trên phần mềm FBO theo Quy trình thanh toán và tạm ứng (PPS-FIN-PR01). 
+-	Đối với mua sắm vật tư, hàng hóa cho các kho nổi/ Xưởng có quản lý danh mục, số lượng vật tư, số MR/ PYC, số KHMS, số Hợp đồng/ Đơn đặt hàng: BPMS khi lập đề xuất thanh toán trên phần mềm FBO sẽ tự động cập nhật thời gian hoàn thành mua sắm là thời điểm thực hiện giao nhận vật tư, giá trị thực tế mua sắm là giá trị vật tư theo Phiếu yêu cầu nhận hàng đã lập trên FBO. 
+-	Trường hợp danh mục, số lượng vật tư thực hiện thủ tục nhập kho đúng theo danh  mục, số lượng vật tư của MR/ PYC đã khai báo trên phần mềm FBO thì FBO tự động đóng MR và cập nhật tình trạng đã hoàn thành công tác mua sắm.
+-	Trường hợp MR/ PYC đã thực hiện hoàn thành công tác mua sắm nhưng danh mục, số lượng nhập kho không đúng với danh mục, số lượng vật tư của MR/ PCY đã khai báo trên phần mềm FBO như mua sắm vật tư tương đương, vật tư mua sắm theo quy cách đóng gói của nhà sản xuất, hoặc quyết định không mua sắm các hạng mục vật tư còn lại thì người dùng (BPMS) chịu trách nhiệm thông báo cho Phòng Tài chính Kế toán để thực hiện thao tác đóng MR. 
+-	Đối với thuê/ mua dịch vụ: BPMS khi lập đề xuất thanh toán trên FBO thực hiện khai báo thông tin thời gian hoàn thành thuê/ mua và giá trị thuê/ mua thực tế.
+-	Trường hợp mã ngân sách để lập dự toán giá trị mua sắm là mã ngân sách tổng thì BPMS khi lập đề xuất thanh toán trên phần mềm FBO phải khai báo mã ngân sách chi tiết thực tế thực hiện. 
+5.4.6.	Báo cáo kết quả thực hiện
+-	BPMS chịu trách nhiệm lập báo cáo kết quả thực hiện công tác mua sắm định kỳ hoặc khi có yêu cầu (theo mẫu PPS-FIN-PR03-FM06).
+-	Bộ phận lập kế hoạch ngân sách và Bộ phận xử lý ngân sách chịu trách nhiệm lập báo cáo giám sát thực hiện kế hoạch ngân sách được giao định kỳ hoặc khi có yêu cầu (theo mẫu PPS-FIN-PR03-FM07)
+-	Phòng Tài chính Kế toán chịu trách nhiệm lập báo cáo công tác quản lý ngân sách, giám sát chi phí hoạt động sản xuất kinh doanh của Công ty theo định kỳ hoặc khi có yêu cầu (theo mẫu PPS-FIN-PR03-FM08)
+-	Các Phòng chức năng/ Bộ phận/ Tổ dự án trong Công ty có trách nhiệm cung cấp thông tin, số liệu thực hiện của kế hoạch ngân sách và kế hoạch sản xuất kinh doanh cho Phòng Tài chính Kế toán để tổng hợp báo cáo Giám đốc định kỳ vào ngày 25 hàng tháng hoặc khi có yêu cầu từ Ban Giám đốc.
+5.5.	Hướng dẫn chuyển nguồn vốn ngân sách 
+5.5.1.	Chuyển nguồn vốn ngân sách để thực hiện trong năm
+-	Chuyển nguồn vốn ngân sách để thực hiện trong năm: là đề xuất sử dụng nguồn Giá trị ngân sách thực hiện còn dư để tiếp tục thực hiện trong năm.
+-	Nguồn Giá trị ngân sách thực hiện còn dư của mã ngân sách gồm: số dư Dự toán giá trị ngân sách thực hiện và số dư Dự toán giá trị mua sắm đã hoàn thành công tác mua sắm.
+-	Số dư Dự toán giá trị ngân sách thực hiện: là Dự toán giá trị ngân sách thực hiện trừ đi Dự toán giá trị mua sắm.
+-	Số dư Dự toán giá trị mua sắm: là Dự toán giá trị mua sắm trừ đi Giá trị mua sắm thực hiện thực tế.
+-	Trường hợp Giá trị ngân sách được sử dụng của mã ngân sách không còn đủ để lập Dự toán giá trị ngân sách thực hiện cho các Đề xuất thực hiện phát sinh thì Bộ phận lập kế hoạch ngân sách lập Phiếu đề xuất sử dụng nguồn Giá trị ngân sách thực hiện còn dư (theo mẫu PPS-FIN-PR03-FM03) báo cáo Giám đốc phê duyệt chuyển nguồn sang Giá trị ngân sách được sử dụng để lập Dự toán giá trị ngân sách thực hiện và Dự toán giá trị mua sắm cho các đề xuất phát sinh. 
+5.5.2.	Chuyển nguồn vốn ngân sách sang kế hoạch ngân sách năm tiếp theo
+-	Chuyển nguồn vốn ngân sách sang kế hoạch ngân sách năm tiếp theo, áp dụng cho trường hợp: Đề xuất thực hiện đã khai báo Dự toán giá trị ngân sách thực hiện nhưng chưa lập Dự toán giá trị mua sắm; Đề xuất thực hiện đã lập Dự toán giá trị mua sắm nhưng chưa thực hiện hoặc đang thực hiện mua sắm và thời điểm hoàn thành là qua năm tiếp theo. 
+-	Vào thời điểm cuối năm (ngày 31/12), Bộ phận xử lý ngân sách và Bộ phận mua sắm tổng hợp các đề xuất thực hiện của 02 trường hợp trên (theo mẫu PPS-FIN-PR03-FM09) để thông báo cho Bộ phận lập kế hoạch ngân sách lập Phiếu đề xuất chuyển nguồn vốn ngân sách (theo mẫu PPS-FIN-PR03-FM04) báo cáo Giám đốc phê duyệt vào kế hoạch ngân sách năm tiếp theo.
+
+-	Phòng Tài chính Kế toán thực hiện thủ tục trình Giám đốc ra quyết định giao kế hoạch sản xuất kinh doanh và kế hoạch ngân sách (bao gồm nguồn vốn ngân sách đề xuất chuyển nguồn được giám đốc phê duyệt) cho từng Phòng chức năng/ Tổ dự án.
+6.	LƯU HỒ SƠ
+Stt	Tên hồ sơ	Bộ phận lưu giữ	Phương pháp lưu	Thời gian lưu
+
+1	Các biểu mẫu	Tổ kế hoạch & kế toán giá thành	Bản giấy: lưu theo năm và thời gian phát sinh của văn bản 	Theo quy định của pháp luật về lưu trữ tài liệu, chứng từ kế toán
+7.	PHỤ LỤC: DANH MỤC MÃ NGÂN SÁCH
+8.	BIỂU MẪU
+-	PPS-FIN-PR03-FM01	Phiếu đề xuất bổ sung ngân sách
+-	PPS-FIN-PR03-FM02	Phiếu đề xuất điều chỉnh Mã ngân sách
+-	PPS-FIN-PR03-FM03	Phiếu đề xuất sử dụng nguồn Giá trị ngân sách thực hiện còn dư
+-	PPS-FIN-PR03-FM04	Phiếu đề xuất chuyển nguồn vốn ngân sách
+-	PPS-FIN-PR03-FM05	Mẫu lập kế hoạch ngân sách và kế hoạch chi phí sản xuất kinh doanh
+-	PPS-FIN-PR03-FM06	Mẫu báo cáo báo cáo kết quả thực hiện mua sắm
+-	PPS-FIN-PR03-FM07	Mẫu báo cáo báo cáo giám sát thực hiện kế hoạch ngân sách
+-	PPS-FIN-PR03-FM08	Mẫu báo cáo công tác quản lý ngân sách và giám sát chi phí hoạt động sản xuất kinh doanh
+-	PPS-FIN-PR03-FM09	Mẫu tổng hợp các đề xuất thực hiện chuyển nguồn vốn ngân sách
+-	PPS-FIN-PR03-FM10	Mẫu lập phương án kinh doanh dự án
+-	Theo yêu cầu của BGĐ	Báo cáo khác
+
+
